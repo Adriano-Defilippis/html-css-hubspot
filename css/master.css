@@ -75,11 +75,15 @@ section{
   text-align: center;
 }
 
-.section_4 .box-loghi .col{
-  width: 25%;
+.box-tabellare .slot{
+  list-style: none;
+  display: inline-block;
+  width: 24%;
   height: 200px;
   background: red;
 }
+
+.section_4 .box-tabellare
 
 
 
