@@ -15,17 +15,56 @@ header{
   border: 2px solid black;
 }
 
+header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 section{
   /* height: 300px; */
   background: lightgrey;
   border: 1px solid black;
 }
 
-/* .section::after{
-  content: "";
-  display: table;
-  clear: both;
-} */
+/* specifiche blocco header */
+header .row1{
+  background-color: #F5F8FA;
+  /* position: fixed; */
+}
+
+header.row2{
+  position: absolute;
+  top: 75px;
+}
+
+header .login-fixed{
+  height: 75px;
+  /* width: 80vw; */
+  /* position: fixed; */
+}
+
+header .col{
+  height: 100%;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+header .col-sx{
+  width: 20%;
+
+}
+
+header .col-cent{
+  width: 50%;
+
+}
+
+header .col-dx{
+  width: 30%;
+  }
+
+
 
 .row::after{
   content: "";
@@ -38,13 +77,24 @@ section{
   margin: 0 auto;
 }
 
-/* regole generali per le colonne */
+/* regole generali per le colonne e le liste */
+.float-right{
+  float: right;
+}
+
 .col{
   background: green;
-  height: 300px;
   border: 1px solid black;
   float: left;
 }
+
+li{
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
 
 /* caratteristiche per le colonne in base al tipo di layout della section */
 .layout_2colonne .col{
@@ -71,19 +121,20 @@ section{
   width: auto;
 }
 
+
 .section_4{
   text-align: center;
 }
 
 .box-tabellare .slot{
-  list-style: none;
-  display: inline-block;
   width: 24%;
   height: 200px;
   background: red;
 }
 
-.section_4 .box-tabellare
+.section_4 .box-tabellare{
+
+}
 
 
 
@@ -92,6 +143,7 @@ section{
 
 
 footer{
+  width: 100%;
   height: 500px;
   background: #33475B;
 }
