@@ -5,5 +5,28 @@
 }
 
 body{
+  /* background: lightgrey; */
+}
+
+header{
+  height: 150px;
+  border: 2px solid black;
+}
+
+section{
+  height: 300px;
   background: lightgrey;
+  border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+footer{
+  height: 500px;
+  background: #33475B;
 }
