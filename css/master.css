@@ -21,6 +21,13 @@ header::after{
   clear: both;
 }
 
+header .row-fixed{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  overflow:hidden;
+}
+
 section{
   /* height: 300px; */
   background: lightgrey;
@@ -28,53 +35,27 @@ section{
 }
 
 /* specifiche blocco header */
-header .row1{
-  background-color: #F5F8FA;
-  /* position: fixed; */
+
+
+
+
+
+.center-cont{
+  width: 80%;
+  margin: 0 auto;
 }
 
-header.row2{
-  position: absolute;
-  top: 75px;
-}
-
-header .login-fixed{
-  height: 75px;
-  /* width: 80vw; */
-  /* position: fixed; */
-}
-
-header .col{
-  height: 100%;
-  background-color: yellow;
-  border: 1px solid black;
-}
-
-header .col-sx{
-  width: 20%;
-
-}
-
-header .col-cent{
-  width: 50%;
-
-}
-
-header .col-dx{
-  width: 30%;
-  }
-
-
-
+/* regole di row */
 .row::after{
   content: "";
   display: table;
   clear: both;
 }
 
-.center-cont{
-  width: 80%;
-  margin: 0 auto;
+header .row-fixed{
+  height: 75px;
+  width: 100vw;
+  background-color: yellow;
 }
 
 /* regole generali per le colonne e le liste */
