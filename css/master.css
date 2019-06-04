@@ -21,24 +21,67 @@ section{
   border: 1px solid black;
 }
 
-section::after{
+/* .section::after{
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.row::after{
   content: "";
   display: table;
   clear: both;
 }
 
+.center-cont{
+  width: 80%;
+  margin: 0 auto;
+}
+
 /* regole generali per le colonne */
 .col{
   background: green;
-  /* height: 400px; */
+  height: 300px;
   border: 1px solid black;
   float: left;
 }
 
-/* stile per le colonne in base al tipo di layout della section */
+/* caratteristiche per le colonne in base al tipo di layout della section */
 .layout_2colonne .col{
   width: calc(100%/2);
 }
+
+.layout_1colonna .col{
+
+}
+
+.layout_3colonne .col{
+  width: calc(100%/3);
+}
+
+
+/* regole più specifiche per ogni section */
+.section_2{
+  text-align: center;
+}
+
+.section_2 img{
+  text-align: center;
+  height: 200px;
+  width: auto;
+}
+
+.section_3{
+  text-align: center;
+}
+
+.section_3 .box-loghi .col{
+  width: 25%;
+  height: 200px;
+  background: red;
+}
+
+
 
 
 
