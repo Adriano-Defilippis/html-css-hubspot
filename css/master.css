@@ -90,6 +90,27 @@ li{
   width: calc(100%/3);
 }
 
+header .col-sx{
+  width: 15%;
+  height: 75px;
+  background-color: blue;
+  float: left;
+}
+
+header .col-cen{
+  width: 55%;
+  height: 75px;
+  float: left;
+  background-color: white;
+}
+
+header .col-dx{
+  width: 30%;
+  height: 75px;
+  float: left;
+  background-color: orange;
+}
+
 
 /* regole più specifiche per ogni section */
 .section_2{
