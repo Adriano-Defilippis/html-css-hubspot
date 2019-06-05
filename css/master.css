@@ -34,6 +34,9 @@ header .nav-bar{
   background: white;
   /* width: 50%; */
 }
+/* header .nav-bar li{
+  margin-right: 5%;
+} */
 
 
 /* Regole generali testi */
@@ -143,6 +146,7 @@ li{
 }
 
 .box-tabellare li{
+  /* margin: 0 1%; */
   float: left;
   list-style: none;
 }
@@ -195,7 +199,7 @@ margin-left: 3%;
 
 /* caratteristiche per le colonne in base al tipo di layout e della section */
 .layout_2colonne .col{
-  max-width: calc(100%/2);
+  width: calc(100%/2);
 
 }
 
@@ -271,9 +275,16 @@ margin-left: 3%;
 
 
 /* Regole per larghezza e lunghezza massima delle colonne */
+
+header #list-nav{
+  /* width: 50vw; */
+}
+
 .section_1 .col{
   max-width: 40%;
 }
+
+
 
 
 
