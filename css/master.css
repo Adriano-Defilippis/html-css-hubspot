@@ -17,6 +17,24 @@ body p{
 }
 
 
+/* Regole per l'Header */
+header .login-bar .col{
+  background-color: #F5F8FA;
+  height: 100%;
+  width: 100%;
+}
+
+header .login-bar{
+  height: 50%;
+  width: 100%;
+  border: 1px solid black;
+}
+
+header .nav-bar{
+  background: white;
+  /* width: 50%; */
+}
+
 
 /* Regole generali testi */
 
@@ -33,8 +51,9 @@ ul{
 
 /* regole gnerali blocchi */
 header{
-  height: 150px;
-  border: 2px solid black;
+  /* height: 150px; */
+  /* border: 2px solid black; */
+  width: 100vw;
 }
 
 section{
@@ -321,7 +340,7 @@ margin-left: 3%;
 
 
 footer{
-  width: 100%;
+  width: 100vw;
   height: 500px;
   background: #33475B;
 }
