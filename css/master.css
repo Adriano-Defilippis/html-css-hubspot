@@ -7,6 +7,7 @@
 body{
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #33475B;
+  background-color: #F5F8FA;
     /* line-height: 1.625; */
   /* background: lightgrey; */
 }
@@ -29,7 +30,7 @@ header{
 }
 
 section{
-
+  width: 100vw;
 }
 
 section::after{
@@ -37,6 +38,8 @@ section::after{
   display: table;
   clear: both;
 }
+
+
 
 /* regole generali caselle liste e contenitori */
 
@@ -48,11 +51,19 @@ section::after{
 
 
 .title-box{
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 .button-box{
-  margin-bottom: 2%;
+  margin-bottom: 5%;
+}
+
+button{
+  padding: 4% 8%;
+  background-color: #FF8F73;
+  border-radius: 4px;
+  color: white;
+  font-weight: lighter;
 }
 
 .note-box{
@@ -61,7 +72,7 @@ section::after{
 }
 
 .center-cont{
-  width: 90%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -90,8 +101,14 @@ li{
   list-style: none;
   display: inline-block;
   margin: 0;
-  padding: 1%;
+  padding: 5%;
 }
+
+.style-box{
+  border-radius: 10px;
+  background-color: white;
+}
+
 
 
 /* Regole per i testi e bottoni in base alla section */
@@ -102,6 +119,12 @@ li{
 
 .section_1 .note-box{
   max-width: 33%;
+}
+
+.section_1 button{
+  font-size: 1em;
+  background-color: #FFFFFF;
+  color: #33475B;
 }
 
 
@@ -115,10 +138,13 @@ li{
   font-weight: lighter;
 }
 
+
+
+
 /* caratteristiche per le colonne in base al tipo di layout e della section */
 .layout_2colonne .col{
   max-width: calc(100%/2);
-  min-width: 500px;
+
 }
 
 .layout_1colonna .col{
@@ -131,16 +157,20 @@ li{
 
 
 
-.section_3 .style-box{
+.section_3 .size-box{
   /* height: 800px; */
   width: 100%;
   float: left;
   /* background-color: yellow; */
 }
 
+
+
 .section_3 .col{
   text-align: center;
 }
+
+
 
 /* Regole per le immagini */
 
@@ -163,22 +193,32 @@ li{
 .section_1 .img-background{
   background-image: url("hubspot-homepage.png");
   background-size: cover;
-  height: 70vh;
+  min-height: 70vh;
   width: 100vw;
   background-attachment: inherit;
   background-position: bottom;
 }
 
-.img-background{
+/* .img-background::after{
   content: "";
   display: table;
   clear: both;
+} */
+
+
+
+/* Regole per larghezza e lunghezza massima delle colonne */
+.section_1 .col{
+  max-width: 40%;
 }
+
 
 /* regole più specifiche per ogni section */
 
-.section-blue{
-  background-color: #51C1D2;
+.section_1{
+  /* height: auto; */
+  width: 100vw;
+  background-color: #356682;
 }
 
 .section_2{
@@ -190,6 +230,12 @@ li{
   height: 200px;
   width: auto;
 }
+
+.section_3 .row{
+  width: 80%;
+  margin: 0 auto;
+}
+
 .section_4{
   background: #00B8A9;
 }
