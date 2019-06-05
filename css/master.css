@@ -45,7 +45,7 @@ section::after{
 
 .row{
   width: 100%;
-  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 
@@ -72,7 +72,7 @@ button{
 }
 
 .center-cont{
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -98,15 +98,25 @@ button{
 }
 
 li{
-  list-style: none;
-  display: inline-block;
   margin: 0;
-  padding: 5%;
+  list-style-image: url("list-img.jpg");
+  /* padding: 5%; */
 }
 
 .style-box{
   border-radius: 10px;
   background-color: white;
+}
+
+
+/* Specifiche di liste*/
+.liste-flottate li{
+    float: left;
+}
+
+.box-tabellare li{
+  float: left;
+  list-style: none;
 }
 
 
@@ -126,6 +136,7 @@ li{
   background-color: #FFFFFF;
   color: #33475B;
 }
+
 
 
 
@@ -207,10 +218,15 @@ li{
 
 
 
+
+
 /* Regole per larghezza e lunghezza massima delle colonne */
 .section_1 .col{
   max-width: 40%;
 }
+
+
+
 
 
 /* regole più specifiche per ogni section */
@@ -232,7 +248,7 @@ li{
 }
 
 .section_3 .row{
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
