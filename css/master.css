@@ -6,6 +6,7 @@
 
 body{
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #33475B;
     /* line-height: 1.625; */
   /* background: lightgrey; */
 }
@@ -44,10 +45,7 @@ section::after{
   padding-top: 5%;
 }
 
-.title-box h1{
-  font-size: 3em;
-  margin-bottom: 2%;
-}
+
 
 .title-box{
   margin-bottom: 2%;
@@ -57,14 +55,13 @@ section::after{
   margin-bottom: 2%;
 }
 
-/* specifiche blocco header */
-
-
-
-
+.note-box{
+  font-size: 0.8em;
+  font-weight: lighter;
+}
 
 .center-cont{
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -99,13 +96,29 @@ li{
 
 /* Regole per i testi e bottoni in base alla section */
 
-.section_1, .section_4{
+.section_1, .section_4, footer{
   color: white;
+}
+
+.section_1 .note-box{
+  max-width: 33%;
+}
+
+
+
+.title-box h1{
+  font-size: 3em;
+  margin-bottom: 5%;
+}
+
+.section_1, .section_4 p{
+  font-weight: lighter;
 }
 
 /* caratteristiche per le colonne in base al tipo di layout e della section */
 .layout_2colonne .col{
-  width: calc(100%/2);
+  max-width: calc(100%/2);
+  min-width: 500px;
 }
 
 .layout_1colonna .col{
@@ -154,6 +167,12 @@ li{
   width: 100vw;
   background-attachment: inherit;
   background-position: bottom;
+}
+
+.img-background{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* regole più specifiche per ogni section */
