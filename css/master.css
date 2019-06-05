@@ -28,10 +28,10 @@ header .row-fixed{
   /* overflow:hidden; */
 }
 
-section{
-  /* height: 300px; */
-  /* background: lightgrey;
-  border: 1px solid black; */
+section::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* regole generali caselle liste e contenitori */
@@ -70,7 +70,7 @@ header .row-fixed{
 }
 
 .col{
-  background: green;
+  /* background: green; */
   border: 1px solid black;
   float: left;
 }
@@ -79,7 +79,7 @@ li{
   list-style: none;
   display: inline-block;
   margin: 0;
-  padding: 0;
+  padding: 1%;
 }
 
 
@@ -130,6 +130,7 @@ header .col-dx{
 }
 
 /* Regole per le immagini */
+
 .section_3 #img-learn{
   height: 150px;
   width: auto;
@@ -139,6 +140,17 @@ header .col-dx{
   height: 150px;
   width: 100%;
   width: auto;
+}
+
+.list-logo-customer{
+  width: 100%;
+  height: auto;
+
+}
+.section_1 .img-background{
+  background-image: url("hubspot-homepage.png");
+  background-size: cover;
+  height: 450px;
 }
 
 /* regole più specifiche per ogni section */
