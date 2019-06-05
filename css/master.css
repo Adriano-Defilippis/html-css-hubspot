@@ -150,7 +150,10 @@ header .col-dx{
 .section_1 .img-background{
   background-image: url("hubspot-homepage.png");
   background-size: cover;
-  height: 450px;
+  height: 50vh;
+  width: 100vw;
+  position: relative;
+  top: 0;
 }
 
 /* regole più specifiche per ogni section */
