@@ -135,6 +135,12 @@ header .col-dx{
   width: auto;
 }
 
+.section_3 .img-sizing{
+  height: 150px;
+  width: 100%;
+  width: auto;
+}
+
 /* regole più specifiche per ogni section */
 .section_2{
   text-align: center;
@@ -154,10 +160,6 @@ header .col-dx{
   width: 24%;
   height: 200px;
   background: red;
-}
-
-.section_4 .box-tabellare{
-
 }
 
 
