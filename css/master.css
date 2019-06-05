@@ -65,13 +65,14 @@ header .row-fixed{
 }
 
 /* regole generali per le colonne e le liste */
+
 .float-right{
   float: right;
 }
 
 .col{
   /* background: green; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   float: left;
 }
 
@@ -122,7 +123,7 @@ header .col-dx{
   /* height: 800px; */
   width: 100%;
   float: left;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .section_3 .col{
@@ -150,13 +151,18 @@ header .col-dx{
 .section_1 .img-background{
   background-image: url("hubspot-homepage.png");
   background-size: cover;
-  height: 50vh;
+  height: 80vh;
   width: 100vw;
-  position: relative;
-  top: 0;
+  background-attachment: inherit;
+  background-position: bottom;
 }
 
 /* regole più specifiche per ogni section */
+
+.section_1{
+  background-color: #51C1D2;
+}
+
 .section_2{
   text-align: center;
 }
@@ -177,7 +183,7 @@ header .col-dx{
 .box-tabellare .slot{
   width: 24%;
   /* height: 200px; */
-  background: red;
+  /* background: red; */
 }
 
 /* regole per le tabelle */
