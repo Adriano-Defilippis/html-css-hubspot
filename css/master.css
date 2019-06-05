@@ -20,6 +20,10 @@ body p{
 
 /* Regole generali testi */
 
+ul{
+
+}
+
 
 
 
@@ -55,7 +59,7 @@ section::after{
 }
 
 .button-box{
-  margin-bottom: 5%;
+  margin: 5% 0;
 }
 
 button{
@@ -83,6 +87,10 @@ button{
   clear: both;
 }
 
+.features-wrapper-testo{
+  text-align: center;
+}
+
 
 
 /* regole generali per le colonne e le liste */
@@ -98,7 +106,7 @@ button{
 }
 
 li{
-  margin: 0;
+  /* margin: 0; */
   list-style-image: url("list-img.jpg");
   /* padding: 5%; */
 }
@@ -109,7 +117,9 @@ li{
 }
 
 
+
 /* Specifiche di liste*/
+
 .liste-flottate li{
     float: left;
 }
@@ -119,7 +129,13 @@ li{
   list-style: none;
 }
 
+.section_3 ul{
+  margin-left: 7%;
+}
 
+.section_3 li{
+margin-left: 3%;
+}
 
 /* Regole per i testi e bottoni in base alla section */
 
@@ -149,7 +165,13 @@ li{
   font-weight: lighter;
 }
 
+.section_3 .button-box{
+  text-align: center;
+}
 
+.section_3 h4{
+  text-align: center;
+}
 
 
 /* caratteristiche per le colonne in base al tipo di layout e della section */
@@ -177,8 +199,17 @@ li{
 
 
 
-.section_3 .col{
-  text-align: center;
+.section_3 .layout_3colonne .col{
+  width: 30%;
+}
+
+.section_3 .layout_3colonne .col-cen{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.section_3 .row{
+  margin: 0 auto;
 }
 
 
@@ -258,6 +289,10 @@ li{
 
 .section_4{
   text-align: center;
+}
+
+.section_5, .section_6{
+  background-color: white;
 }
 
 .box-tabellare .slot{
