@@ -18,6 +18,11 @@ body p{
 
 
 /* Regole per l'Header */
+header .row{
+  padding-bottom: 0;
+  padding: 2% 0;
+}
+
 header .login-bar .col{
   background-color: #F5F8FA;
   height: 100%;
@@ -32,11 +37,17 @@ header .login-bar{
 
 header .nav-bar{
   background: white;
-  /* width: 50%; */
+
 }
-/* header .nav-bar li{
-  margin-right: 5%;
-} */
+
+header .nav-bar .box-tabellare{
+  min-width: 600px;
+}
+header .nav-bar li{
+  margin-right: 6%;
+  list-style-image: url("img/arrow-down.jpg");
+
+}
 
 
 /* Regole generali testi */
@@ -69,14 +80,16 @@ section::after{
   clear: both;
 }
 
-
-
-/* regole generali caselle liste e contenitori */
-
 .row{
   width: 100%;
   padding-bottom: 5%;
 }
+
+
+
+/* regole generali caselle liste e contenitori */
+
+
 
 
 .button-box{
