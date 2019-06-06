@@ -70,6 +70,11 @@ ul{
   margin-bottom: 5%;
 }
 
+.title-box h1{
+  font-size: 2em;
+  margin-bottom: 3%;
+}
+
 
 /* regole gnerali blocchi */
 header{
@@ -180,6 +185,8 @@ li{
 margin-left: 3%;
 }
 
+
+
 /* Regole per i testi e bottoni in base alla section */
 
 .section_1, .section_4, footer{
@@ -188,6 +195,11 @@ margin-left: 3%;
 
 .section_1 .note-box{
   max-width: 33%;
+}
+
+.section_1 .title-box h1{
+  font-size: 3em;
+  margin-bottom: 5%;
 }
 
 .section_1 button{
@@ -199,12 +211,6 @@ margin-left: 3%;
 
 
 
-
-.title-box h1{
-  font-size: 3em;
-  margin-bottom: 5%;
-}
-
 .section_1, .section_4 p{
   font-weight: lighter;
 }
@@ -215,6 +221,10 @@ margin-left: 3%;
 
 .section_3 h4{
   text-align: center;
+}
+
+.section_2 p{
+  font-size: 1.3em;
 }
 
 
@@ -363,12 +373,26 @@ header #list-nav{
   /* background: red; */
 }
 
+
+
+
+
 /* regole per le tabelle */
 .img-item-lista-grande {
   height: 100px;
   width: auto;
 }
 
+
+
+
+/* Regole per margini e padding nei singoli box in base alla section */
+
+.section_4, .section_2 .title-box{
+  padding: 0 5%;
+  margin: 0;
+
+}
 
 
 
