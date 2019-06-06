@@ -104,7 +104,7 @@ section::after{
 
 
 .button-box{
-  margin: 5% 0;
+  margin: 2% 0;
 }
 
 button{
@@ -156,10 +156,7 @@ li{
   /* padding: 5%; */
 }
 
-.style-box{
-  border-radius: 10px;
-  background-color: white;
-}
+
 
 
 
@@ -185,7 +182,7 @@ margin-left: 3%;
 }
 
 .item-griglia-grande{
-  margin-top: 0%;
+
   border: 1px solid white;
 }
 
@@ -256,6 +253,10 @@ margin-left: 3%;
   width: 100%;
   float: left;
   /* background-color: yellow; */
+}
+
+.section_3 .size-box .features-wrapper-testo{
+  max-width: 40%;
 }
 
 
@@ -402,6 +403,15 @@ header #list-nav{
   padding: 5%;
 }
 
+.style-box{
+  border-radius: 10px;
+  background-color: white;
+  padding: 2% 4%;
+}
+
+.style-box .popular-features{
+  padding: 2% 0;
+}
 
 
 
