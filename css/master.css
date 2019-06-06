@@ -12,8 +12,8 @@ body{
   /* background: lightgrey; */
 }
 
-body p{
-  line-height: 1.625;
+body footer p{
+  line-height: 1.25;
   font-weight: lighter;
   webkit-font-smoothing: antialiased;
 }
@@ -112,7 +112,7 @@ section::after{
 }
 
 .center-cont{
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -488,7 +488,24 @@ header #list-nav{
 
 
 footer{
-  width: 100vw;
-  height: 500px;
+  /* width: 100vw; */
+  /* height: 500px; */
   background: #33475B;
+}
+
+footer table{
+  width: 100%;
+  text-transform: capitalize;
+}
+
+footer table td{
+  padding: 1%;;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  padding: 5% 0;
+  font-size: 0.8em;
+
 }
