@@ -22,7 +22,7 @@ body p{
 /* Regole per l'Header */
 header .row{
   padding-bottom: 0;
-  padding: 2% 0;
+  padding: 1% 0;
 }
 
 header .login-bar .col{
@@ -103,8 +103,6 @@ section::after{
 /* regole generali caselle liste e contenitori */
 
 
-
-
 .button-box{
   margin: 5% 0;
 }
@@ -117,7 +115,7 @@ button{
   font-weight: lighter;
 }
 
-.note-box{
+.note-box p{
   font-size: 0.8em;
   font-weight: lighter;
 }
@@ -179,12 +177,17 @@ li{
 
 .section_3 ul{
   margin-left: 7%;
+
 }
 
 .section_3 li{
 margin-left: 3%;
 }
 
+.item-griglia-grande{
+  margin-top: 0%;
+  border: 1px solid white;
+}
 
 
 /* Regole per i testi e bottoni in base alla section */
@@ -227,6 +230,10 @@ margin-left: 3%;
   font-size: 1.3em;
 }
 
+.section_4 ul h2{
+  font-size: 3em;
+  margin: -4%;
+}
 
 /* caratteristiche per le colonne in base al tipo di layout e della section */
 .layout_2colonne .col{
@@ -270,6 +277,16 @@ margin-left: 3%;
 
 /* Regole per le immagini */
 
+.section_1 .img-background{
+  background-image: url("hubspot-homepage.png");
+  background-size: cover;
+  min-height: 70vh;
+  width: 100vw;
+  background-attachment: inherit;
+  background-position: bottom;
+}
+
+
 .section_3 #img-learn{
   height: 150px;
   width: auto;
@@ -281,19 +298,17 @@ margin-left: 3%;
   width: auto;
 }
 
-.list-logo-customer{
-  width: 100%;
-  height: auto;
+.section_4 .img-item-griglia-grande{
+  min-height: 40px;
+  width: auto;
+}
 
+.list-logo-customer{
+  max-height: 200px;
+  width: auto;
 }
-.section_1 .img-background{
-  background-image: url("hubspot-homepage.png");
-  background-size: cover;
-  min-height: 70vh;
-  width: 100vw;
-  background-attachment: inherit;
-  background-position: bottom;
-}
+
+
 
 .section_6{
   background-image: url("img/persona.png");
@@ -383,6 +398,11 @@ header #list-nav{
   width: auto;
 }
 
+.item-griglia-grande{
+  padding: 5%;
+}
+
+
 
 
 
@@ -393,9 +413,6 @@ header #list-nav{
   margin: 0;
 
 }
-
-
-
 
 
 
