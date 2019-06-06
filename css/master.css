@@ -131,7 +131,21 @@ section::after{
   margin: 5% 0;
 }
 
+.section_5 table td{
+  width: 25%;
+  height: auto;
+  padding: 3%;
+}
 
+.section_5 table tr{
+  height: 50px;
+  width: 200px;
+}
+
+.section_5 table img{
+  width: 100%;
+  height: auto;
+}
 
 /* regole generali per le colonne e le liste */
 
@@ -273,6 +287,10 @@ button{
   margin-right: 5%;
 }
 
+.section_5 .col-resize{
+  width: 45%;
+}
+
 
 
 
@@ -305,10 +323,7 @@ button{
   width: auto;
 }
 
-.list-logo-customer{
-  max-height: 200px;
-  width: auto;
-}
+
 
 
 
@@ -317,11 +332,7 @@ button{
   background-size:cover;
 }
 
-/* .img-background::after{
-  content: "";
-  display: table;
-  clear: both;
-} */
+.
 
 
 
@@ -438,13 +449,7 @@ header #list-nav{
    max-width: 40%;
  }
 
- .section_5 .box-tabellare .slot{
-  width: 30%;
-  padding: 2%;
-  height: 100px;
-  position: relative;
-  top: 60px;
- }
+
 
 
 
@@ -462,6 +467,10 @@ header #list-nav{
   padding: 0 5%;
   margin: 0;
 
+}
+
+.section_5 table{
+  margin-top: 20%;
 }
 
 .layout_3colonne .col_1, .col_2, .col_3{
