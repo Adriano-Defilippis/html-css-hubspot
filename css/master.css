@@ -491,11 +491,18 @@ footer{
   /* width: 100vw; */
   /* height: 500px; */
   background: #33475B;
+  text-transform: capitalize;
+}
+
+footer::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 footer table{
   width: 100%;
-  text-transform: capitalize;
+
 }
 
 footer table td{
@@ -507,5 +514,38 @@ footer a{
   color: white;
   padding: 5% 0;
   font-size: 0.8em;
+}
 
+
+footer .note-box{
+  margin-top: 1%;
+}
+
+footer .row-lang{
+  text-align: center;
+  margin: 2% 0;
+}
+footer .row-copyright{
+  margin: 2% 0;
+}
+
+.row-copyright .float-right{
+  /* position: relative;
+  left: 50%; */
+  text-align: right;
+}
+
+.row-copyright a, .list-lang a{
+
+  font-size: 18px;
+  padding: 1% 1%;
+
+}
+
+footer .icone-social i{
+  margin: 0 3%;
+}
+
+.row-copyright, .row-lang{
+  padding-bottom: 1%;
 }
