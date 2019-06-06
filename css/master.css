@@ -488,7 +488,7 @@ header #list-nav{
 
 
 footer{
-  /* width: 100vw; */
+  width: 100vw;
   /* height: 500px; */
   background: #33475B;
   text-transform: capitalize;
